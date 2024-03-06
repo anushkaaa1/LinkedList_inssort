@@ -59,6 +59,7 @@ public class linkedlinssort {
             }
             if(temp==null){
                 ptemp.next = newnode;
+                tail = newnode;
             }
         }
     }
